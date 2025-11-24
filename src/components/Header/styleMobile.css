@@ -1,0 +1,54 @@
+@media screen and (max-width: 940px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        padding: 0.5rem;
+    }
+    
+    .container-header{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .menu{
+        margin: 15px 0;
+        width: 50px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .sessao-nome-header{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sessao-nome-header h2{
+        font-size: 1rem;
+    }
+
+    .menu-mobile{
+        display: none;
+    }
+
+    .empty-div{
+        display: none;
+    }
+
+    .menu-mobile.ativo {
+        display: flex;
+    }
+
+    .lista-opcoes{
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sessao-botao{
+        display: none;
+    }
+}

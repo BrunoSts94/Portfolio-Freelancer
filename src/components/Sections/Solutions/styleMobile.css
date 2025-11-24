@@ -1,0 +1,28 @@
+@media screen and (max-width: 940px){
+    .section-solutions{
+        padding: 2.5rem 2rem;
+    }
+
+    .container-solutions-exists{
+        width: 100%;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .container-solutions-exists h2{
+        font-size: 2rem;
+    }
+
+    .container-solutions-exists p{
+        font-size: 1rem;
+    }
+
+    .container-section-solutions-cards{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 20px;
+    }
+}

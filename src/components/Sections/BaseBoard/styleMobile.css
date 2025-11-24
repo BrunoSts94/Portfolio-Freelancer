@@ -1,0 +1,26 @@
+@media screen and (max-width: 940px){
+    .section-footer{
+        padding: 2.5rem 2rem;
+        text-align: center;
+    }
+
+    .section-footer p{
+        font-size: 0.9rem;
+    }
+
+    .container-section-footer h2{
+        font-size: 2rem;
+    }
+
+    .container-section-footer p{
+        font-size: 1rem;
+    }
+
+    .container-footer-icons{
+        gap: 1rem;
+    }
+
+    .container-footer-icons svg{
+        width: 40px;
+    }
+}

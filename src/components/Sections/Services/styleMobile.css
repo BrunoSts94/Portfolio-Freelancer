@@ -1,0 +1,25 @@
+@media screen and (max-width: 940px){
+    .section-services{
+        padding: 2.5rem 2rem;
+        gap: 2.5rem;
+    }
+
+    .container-services-info{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .container-services-info h2{
+        font-size: 2rem;
+    }
+
+    .container-services-info p{
+        font-size: 1rem;
+    }
+
+    .container-cards-services{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+}

@@ -1,0 +1,33 @@
+.section-services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.container-services-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 80%;
+  color: #ffffffe0;
+}
+
+.container-services-info h2{
+  font-size: 3rem;
+}
+
+.container-services-info p{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.container-cards-services{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+

@@ -1,0 +1,18 @@
+.default-button{
+    font-size: 1.2rem;
+    padding: 15px;
+    cursor: pointer;
+
+    color: #ffffffe0;
+    background-color: #a251f3;
+    border: none;
+    border-radius: 0.8rem;
+    transition: 0.4s ease-in-out;
+    text-transform: uppercase;
+}
+
+.default-button:hover{
+    box-shadow: 0 0 30px #783bb1;
+    filter: brightness(0.8);
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+.container-section-clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: #ffffffd7;
+    width: 85%;
+}
+
+.container-section-clients h2{
+    font-size: 2.5rem;
+}
+
+.container-section-clients p{
+    font-size: 1.5rem;
+}
+
+.container-clients-icons{
+    overflow: hidden;
+    width: 100%;
+    background-color:#a251f33d;
+    padding: 40px 0;
+    border-radius: 2rem;
+}
+
+.motion-div{
+    display: flex;
+    gap: 3rem;
+}
+
+.icon-client{
+    height:5rem;
+    width: auto;
+}
+

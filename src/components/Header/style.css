@@ -1,0 +1,65 @@
+header{
+    position: fixed;
+    color: #ffffffd7;
+    padding: 25px;
+    width: 100%;
+    background-color: #0A0410;
+    z-index: 4;
+}
+
+header h2{
+    color: #ffffffd7;
+    font-weight: 300;
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15rem;
+}
+
+.menu{
+    display: none;
+}
+
+.empty-div{
+    width: 100px;
+    height: 40px;
+}
+
+.active {
+  color: #9F4FF0;
+  font-weight: bold;
+}
+
+.sessao-nome-header{
+    cursor: pointer;
+    
+}
+
+.sessao-nome-header p{
+    font-size: 0.8rem;
+
+}
+
+.lista-opcoes{
+    display: flex;
+    gap: 3rem;
+    cursor: pointer;
+}
+
+.lista-opcoes li{
+    transition: 0.5s;
+    list-style: none
+}
+
+.lista-opcoes li:hover{
+    color: #9F4FF0;
+    transform: scale(1.1);
+}
+
+.sessao-opcoes p{
+    font-size: 1.2rem;
+}

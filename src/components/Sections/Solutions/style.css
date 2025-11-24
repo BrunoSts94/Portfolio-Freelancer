@@ -1,0 +1,36 @@
+.container-section-solutions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-solutions-exists{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.container-solutions-exists h2{
+    font-size: 2.5rem;
+    color: #ffffffe0;
+}
+
+.container-solutions-exists p{
+    font-size: 1.2rem;
+    color: #ffffffe0;
+}
+
+.container-section-solutions-cards{
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    background-color: rgba(0, 0, 0, 0.493);
+    gap: 25px;
+    border-radius: 20px;
+}

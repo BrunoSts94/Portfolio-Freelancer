@@ -1,0 +1,35 @@
+@media screen and (max-width: 940px){
+    .section-clients{
+        padding: 2.5rem 2rem;
+    }
+
+    .container-section-clients{
+        text-align: center;
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+    .container-section-clients h2{
+        font-size: 2rem;
+    }
+
+    .container-section-clients p{
+        font-size: 1rem;
+    }
+
+    .container-clients-icons{
+        width: 100%;
+        padding: 10px 0;
+        border-radius: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .motion-div{
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .icon-client{
+        height:3rem;
+    }
+}
