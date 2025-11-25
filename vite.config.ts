@@ -6,5 +6,4 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: '/Portfolio-Freelancer/',
   plugins: [react(), tailwindcss()],
-  
 })

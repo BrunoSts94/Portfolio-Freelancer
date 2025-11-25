@@ -4,6 +4,7 @@
         align-items: center;
         justify-items: center;
         padding: 0.5rem;
+        border-bottom: 1px solid #ffffffad;
     }
     
     .container-header{
@@ -12,8 +13,8 @@
         flex-direction: column;
     }
 
-    .menu{
-        margin: 15px 0;
+    .menuHamburguer{
+        margin: 5px 0;
         width: 50px;
         cursor: pointer;
         display: block;
@@ -24,6 +25,19 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+
+     .menuHamburguer {
+        width: 40px;
+        background: linear-gradient(135deg, #a251f3, #6126bb);
+        border-radius: 20%;
+        cursor: pointer;
+        transition: transform 0.4s ease;
+    }
+
+
+    .menuHamburguer.rotated {
+        transform: rotate(90deg);
     }
 
     .sessao-nome-header h2{

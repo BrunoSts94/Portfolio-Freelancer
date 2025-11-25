@@ -1,14 +1,7 @@
-.eletric{
+.conatiner-card-service{
     width: 25%;
     height: 550px;
-    padding: 0;
-    margin: 0;
-}
-
-.conatiner-card-service{
-    width: 100%;
-    height: 550px;
-    background-color: #150623;
+    background: linear-gradient(#3c1264, #150623);
     display: flex;
     flex-direction: column;
     color: #000000e0;
@@ -16,6 +9,14 @@
     border-radius: 2rem;
     gap: 1rem;
     transition: 0.4s ease-in;
+    padding: 10px;
+}
+
+.conatiner-card-service img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
 
 .conatiner-card-service:hover{
@@ -27,39 +28,26 @@
     text-align: center;
     flex-direction: column;
     align-items: center;
-    padding: 0 5px;
+    padding: 10px 5px;
 }
 
 .section-card-service-info h3{
     color: #F9F9FA;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
 .section-card-service-info p{
-    color: #8c7f97;
+    color: #a899b6;
     line-height: 22px;
-}
-
-.eletric img{
-    width: 100%;
-    height: 70%;
-    object-fit: cover;
-    object-position: top;
-    border-top-right-radius: 2rem;
-    border-top-left-radius: 2rem;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 940px){
-    .eletric{
-        width: 98%;
-        height:430px;
-    }
-
     .conatiner-card-service{
         width: 100%;
-        height: 430px;
+        height: auto;
         cursor: pointer;
         border-radius: 2rem;
     }
@@ -69,23 +57,21 @@
     }
 
     .section-card-service-info h3{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .section-card-service-info p{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        font-weight: 500;
     }
 
-    .eletric img{
+    .conatiner-card-service img{
         width: 100%;
-        height: 60%;
+        height: 250px;
         object-fit: cover;
-        object-position: top;
-        border-top-right-radius: 2rem;
-        border-top-left-radius: 2rem;
+        object-position: center;
+        border-radius: 20px 20px 0 0;
     }
-
-
 }
 
 

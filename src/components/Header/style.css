@@ -20,18 +20,13 @@ header h2{
     padding: 0 15rem;
 }
 
-.menu{
+.menuHamburguer{
     display: none;
 }
 
 .empty-div{
     width: 100px;
     height: 40px;
-}
-
-.active {
-  color: #9F4FF0;
-  font-weight: bold;
 }
 
 .sessao-nome-header{

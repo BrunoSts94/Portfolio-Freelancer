@@ -1,15 +1,17 @@
 {
-   "compilerOptions": {
+  "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
     "strict": true,
     "jsx": "react-jsx",
-
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "noEmit": true,          
+    "isolatedModules": true,
+    "skipLibCheck": true
   },
   "include": ["src"]
 }

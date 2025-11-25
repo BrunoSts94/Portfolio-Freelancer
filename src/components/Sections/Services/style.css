@@ -21,13 +21,15 @@
 }
 
 .container-services-info p{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 300;
+  width: 80%;
 }
 
 .container-cards-services{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10rem;
 }
 
