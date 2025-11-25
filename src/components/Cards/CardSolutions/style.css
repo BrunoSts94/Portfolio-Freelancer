@@ -86,12 +86,10 @@
     }
 
     .btn-cards-solution-view{
-        width: 80%;
+        width: 30%;
         position: relative;
         left: 0;
         font-size: 1rem !important;
         padding: 0.5rem !important;
     }
-
-
 }

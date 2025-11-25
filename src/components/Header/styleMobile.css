@@ -13,6 +13,11 @@
         flex-direction: column;
     }
 
+    .sessao-nome-header img{
+        cursor: pointer;
+        width: 80px;
+    }
+
     .menuHamburguer{
         margin: 5px 0;
         width: 50px;

@@ -18,10 +18,10 @@ export function Hero(){
     return(
         <section className='section-hero'>
             <div className='container-hero-infos'>
-                <h1>Bruno Santos</h1>
+                <h1>&#62;Bruno_Santos _</h1>
                 <h3>WEBSITE DEVELOPER</h3>
                 <span>Transformando suas ideias de negócio, elevando sua presença digital.</span>
-                <p>Atuo no desenvolvimento de sites modernos, rápidos e personalizados para destacar o seu negócio no digital.
+                <p>Atuo no desenvolvimento de sites modernos, rápidos e personalizados para destacar o seu negócio no digital.<br/>
                 Meu objetivo é transformar visitantes em clientes, criando páginas profissionais que refletem a essência da sua marca e aumentam suas oportunidades de venda.<br/>
                 Se você quer fortalecer sua presença online, atrair mais clientes e se posicionar à frente da concorrência, estou aqui para criar a solução ideal para o seu negócio.
                 </p>

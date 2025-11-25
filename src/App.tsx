@@ -16,7 +16,10 @@ function App() {
   return (
     <>
       <ParticlesComponent/>
-      <Header/>
+      <Element name='inicio'>
+        <Header/>
+      </Element>
+      
       <Hero/>
 
       <Element name='services'>
