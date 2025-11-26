@@ -5,6 +5,7 @@
         justify-items: center;
         padding: 0.5rem;
         border-bottom: 1px solid #ffffffad;
+        
     }
     
     .container-header{
@@ -16,6 +17,7 @@
     .sessao-nome-header img{
         cursor: pointer;
         width: 80px;
+       
     }
 
     .menuHamburguer{
@@ -51,6 +53,7 @@
 
     .menu-mobile{
         display: none;
+        
     }
 
     .empty-div{
@@ -59,6 +62,7 @@
 
     .menu-mobile.ativo {
         display: flex;
+        
     }
 
     .lista-opcoes{
@@ -66,7 +70,6 @@
         flex-direction: column;
         align-items: center;
     }
-
     .sessao-botao{
         display: none;
     }
