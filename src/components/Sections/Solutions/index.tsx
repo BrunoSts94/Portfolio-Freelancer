@@ -1,6 +1,7 @@
 import './style.css'
 import './styleMobile.css'
 import { CardSolutions } from '../../Cards/CardSolutions'
+import { motion } from 'framer-motion'
 
 import site1 from '../../../assets/beauty-img.jpg'
 import site2 from '../../../assets/elite-img.jpg'
@@ -10,8 +11,23 @@ export function Solutions(){
         <section className='section-solutions'>
             <div className='container-section-solutions'>
                 <div className='container-solutions-exists'>
-                    <h2>Vamos criar seu site?</h2>
-                    <p>Escolha entre modelos profissionais já desenvolvidos ou traga sua ideia para criarmos algo totalmente exclusivo para o seu negócio. Seja qual for sua necessidade, entrego um site moderno, funcional e preparado para gerar resultados.</p>
+                    <motion.div
+                    initial={{ opacity:0, scale:0.8, filter: "blur(20px)" }}
+                    whileInView={{ opacity: 1, scale: 1,  filter: "blur(0px)"}}
+                    transition={{  duration: 0.8, ease: "easeOut" }}
+                    >
+                    <h2>Vamos criar seu site?</h2>    
+                    </motion.div>
+
+                    <motion.div
+                    initial={{ opacity:0, scale:0.8, filter: "blur(20px)" }}
+                    whileInView={{ opacity: 1, scale: 1,  filter: "blur(0px)"}}
+                    transition={{  duration: 0.8, ease: "easeOut", delay:0.2 }}
+                    >
+                    <div className='wrapper-solution'>
+                        <p>Escolha entre modelos profissionais já desenvolvidos ou traga sua ideia para criarmos algo totalmente exclusivo para o seu negócio. Seja qual for sua necessidade, entrego um site moderno, funcional e preparado para gerar resultados.</p>
+                    </div>
+                    </motion.div>
                     <div className='container-section-solutions-cards'>
                         <CardSolutions
                         img={site1}

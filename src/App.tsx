@@ -6,7 +6,11 @@ import { Header } from './components/Header'
 import { Hero } from './components/Sections/Hero'
 import { Services } from './components/Sections/Services'
 import { Solutions } from './components/Sections/Solutions'
-import { Clients } from './components/Sections/Clients'
+/*import { Clients } from './components/Sections/Clients'
+<Element name='clients'>
+        <Clients/>
+      </Element>
+*/
 import { BaseBoard } from './components/Sections/BaseBoard'
 
 
@@ -32,9 +36,7 @@ function App() {
         <Solutions/>
       </Element>
 
-      <Element name='clients'>
-        <Clients/>
-      </Element>
+      
 
       <Element name='contact'>
         <BaseBoard/>
