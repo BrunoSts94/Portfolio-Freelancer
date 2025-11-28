@@ -55,47 +55,12 @@ h1{
   box-shadow: 10px 10px 40px #3f1977;
 }
 
-.image-front {
-  position: relative;
-  top: 90px;
-  left: 10%;
-
-  width: 250px;
-  height: 290px;
-  overflow: hidden;
-  clip-path: polygon(
-    0% 0%,    /* canto superior esquerdo */
-    100% 0%,  /* canto superior direito */
-    100% 70%,/* canto inferior direito */
-    65% 100%, /* ponto do corte diagonal */
-    0% 100%    /* final do corte diagonal */
-  );
-  z-index: 2;
-  border-radius: 40px;
-}
-
-.image-back {
-  position: relative;
-  top: -75%;
-  left: 30%;
-  width: 55%;
-  height: 380px;
-  overflow: hidden;
-  clip-path: polygon(
-    50% 0%,    
-    100% 0%,  
-    100% 100%,
-    0% 100%,
-    0% 50%    
-  );
-  z-index: 1;
-  border-radius: 40px;
-}
-
-.shape img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.container-hero-image img{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -60%);
+  width: 85%;
 }
 
 .container-hero-btn{

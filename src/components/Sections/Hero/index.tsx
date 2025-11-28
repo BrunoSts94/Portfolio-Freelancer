@@ -1,4 +1,4 @@
-import photo1 from '../../../assets/heroImg1.jpg'
+import imgHero from '../../../assets/hero-img.png'
 import photo2 from '../../../assets/heroImage2.png'
 import  EncryptButton  from '../../../animations/EncryptButton'
 import { Link } from 'react-scroll'
@@ -74,15 +74,8 @@ export function Hero(){
                 
             </div>
 
-            
-            <div className='container-hero-image'>            
-                <div className="shape image-front">
-                    <img src={ photo1 } alt="" />
-                </div>
-
-                <div className="shape image-back">
-                    <img src={ photo2 } alt="" />
-                </div>
+            <div className='container-hero-image'>  
+                <img src={imgHero} alt="imagem de apresentação de Bruno" />
             </div>
         </section>
     )
