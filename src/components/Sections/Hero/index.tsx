@@ -32,7 +32,7 @@ export function Hero(){
                 animate={{ opacity:1, scale:1, filter: "blur(0px)"  }}
                 transition={{  duration: 0.8, ease: "easeOut", delay: 0.2}}
                 >
-                    <h3>WEBSITE DEVELOPER</h3>    
+                    <h3>Desenvolvedor de Websites</h3>    
                 </motion.div>
                 
                 <motion.div
