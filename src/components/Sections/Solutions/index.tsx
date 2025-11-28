@@ -42,30 +42,7 @@ export function Solutions(){
                         descricao='Modelo para empresas do segmento de segurança no Trabalho'
                         onClickButton={() => window.open('https://elitetreinamentos.netlify.app', '_blank')}
                         />
-
-                        <CardSolutions
-                        img={site1}
-                        titulo='Projeto A'
-                        descricao='Projeto desenvolvido para a empresa A'
-                        />
-
-                        <CardSolutions
-                        img={site1}
-                        titulo='Projeto A'
-                        descricao='Projeto desenvolvido para a empresa A'
-                        />
-
-                        <CardSolutions
-                        img={site1}
-                        titulo='Projeto A'
-                        descricao='Projeto desenvolvido para a empresa A'
-                        />
-
-                        <CardSolutions
-                        img={site1}
-                        titulo='Projeto A'
-                        descricao='Projeto desenvolvido para a empresa A'
-                        />
+                        
                     </div>
                 </div>
             </div>
