@@ -3,8 +3,9 @@ import './styleMobile.css'
 import { CardSolutions } from '../../Cards/CardSolutions'
 import { motion } from 'framer-motion'
 
-import site1 from '../../../assets/beauty-img.jpg'
-import site2 from '../../../assets/elite-img.jpg'
+import beautyImg from '../../../assets/beauty-img.jpg'
+import pastelImg from '../../../assets/pastel-img.jpg'
+import eliteImg from '../../../assets/elite-img.jpg'
 
 export function Solutions(){
     return(
@@ -30,14 +31,21 @@ export function Solutions(){
                     </motion.div>
                     <div className='container-section-solutions-cards'>
                         <CardSolutions
-                        img={site1}
+                        img={beautyImg}
                         titulo='Beauty Saloon'
-                        descricao='Projeto criado para seguimento de salões de beleza e clínicas estéticas.'
+                        descricao='Modelo de landing page criado para seguimento de salões de beleza e clínicas estéticas.'
                         onClickButton={() => window.open('https://beauty-salloon-teste.netlify.app', '_blank')}
                         />
 
                         <CardSolutions
-                        img={site2}
+                        img={pastelImg}
+                        titulo='Pastelaria Aroma e Sabor'
+                        descricao='Modelo criado para lancherias e pastelarias, este modelo já não apresenta somente uma simples pagina mas tambem um mini sistema de captura e registro de pedido via Whatsapp para seu negócio.'
+                        onClickButton={() => window.open('https://brunosts94.github.io/aroma-e-sabor-pastelaria/', '_blank')}
+                        />
+
+                        <CardSolutions
+                        img={eliteImg}
                         titulo='Elite treinamentos'
                         descricao='Modelo para empresas do segmento de segurança no Trabalho'
                         onClickButton={() => window.open('https://elitetreinamentos.netlify.app', '_blank')}
